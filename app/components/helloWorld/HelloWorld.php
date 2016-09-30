@@ -15,7 +15,8 @@ class HelloWorld extends Controller {
 	 * @return Response
 	 */
 	public function doDefault(Request $request, Response $response) {
-		$tpl = new Template('app/components/helloWorld/tpl', $this->app->getBasePath());
+		
+		$tpl = $this->template->getTemplate('app/components/helloWorld/tpl');
 		$tpl->set('title', 'Hello World!');
 		$tpl->set('content', 'This is the hello world template');
 		
