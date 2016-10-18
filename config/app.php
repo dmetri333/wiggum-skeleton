@@ -5,7 +5,6 @@
 
 return [
 	'environment' => 'development',
-	
 	'timezone' => 'America/Toronto',
 		
 	'boot' => [

@@ -4,7 +4,6 @@ namespace app\components\helloWorld;
 use \wiggum\foundation\Controller;
 use \wiggum\http\Request;
 use \wiggum\http\Response;
-use \wiggum\commons\template\Template;
 
 class HelloWorld extends Controller {
 	
