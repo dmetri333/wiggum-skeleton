@@ -8,8 +8,8 @@ return [
 	'timezone' => 'America/Toronto',
 		
 	'boot' => [
-			'services' => '/boot/services.php',
-			'middleware' => '/boot/middleware.php',
-			'routes' => '/boot/routes.php'
+			'services' => '/app/boot/services.php',
+			'middleware' => '/app/boot/middleware.php',
+			'routes' => '/app/boot/routes.php'
 		]
 ];
