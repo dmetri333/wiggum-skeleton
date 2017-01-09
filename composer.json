@@ -1,14 +1,5 @@
 {
-	"repositories": [
-	    {
-        	"type": "vcs",
-        	"url": "https://github.com/dmetri333/wiggum-framework"
-    	},
-    	 {
-        	"type": "vcs",
-        	"url": "https://github.com/dmetri333/wiggum-services"
-    	}
-    ],
+	"name": "wiggum/skeleton",
 	"require" : {
 		"wiggum/framework": "dev-master",
 		"wiggum/services": "dev-master"
