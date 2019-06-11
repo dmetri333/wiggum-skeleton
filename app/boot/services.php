@@ -2,6 +2,10 @@
 /************************/
 /* Services             */
 /************************/
+$app->addService('router', function() {
+    return new wiggum\services\router\Router($this);
+});
+
 $app->addService('exceptionHandler', function() {
 	return new wiggum\services\exceptionHandler\ExceptionHandler($this);
 });
