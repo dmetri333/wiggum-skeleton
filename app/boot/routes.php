@@ -2,4 +2,4 @@
 /************************/
 /* Routes               */
 /************************/
-$app->addRoute('/', '\app\components\helloWorld\HelloWorld');
+$app->router->map('GET', '/', '\app\components\helloWorld\HelloWorld');
