@@ -19,4 +19,3 @@ return [
 		'xml' => '../app/tpl/error/xml.tpl.php'
 	]
 ];
-?>

@@ -2,7 +2,7 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
-$kernel = new \wiggum\foundation\Kernel(
+$kernel = new \wiggum\http\Kernel(
 		new \wiggum\foundation\Application(realpath(__DIR__.'/../'))
 	);
 	

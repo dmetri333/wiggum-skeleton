@@ -1,4 +1,5 @@
 <?php
+
 namespace app\components\helloWorld;
 
 use \wiggum\foundation\Controller;
@@ -13,16 +14,15 @@ class HelloWorld extends Controller {
 	 * @param Response $response
 	 * @return Response
 	 */
-	public function doDefault(Request $request, Response $response) {
+	public function doDefault(Request $request, Response $response): Response
+	{
 		
 		$tpl = $this->template->getTemplate('app/components/helloWorld/tpl');
 		$tpl->set('title', 'Hello World!');
 		$tpl->set('content', 'This is the hello world template');
 		
 		$response->setOutput($tpl->fetch('helloWorld'));
-		
 		return $response;
 	}
 	
 }
-?>
