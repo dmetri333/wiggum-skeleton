@@ -2,7 +2,7 @@
 
 namespace app\components\helloWorld;
 
-use \wiggum\foundation\Controller;
+use \wiggum\http\Controller;
 use \wiggum\http\Request;
 use \wiggum\http\Response;
 

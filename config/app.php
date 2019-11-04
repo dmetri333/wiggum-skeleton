@@ -13,7 +13,7 @@ return [
 			'middleware' => '/app/boot/middleware.php',
 			'routes' => '/app/boot/routes.php'
 		],
-		'cli' => [
+		'console' => [
 			'services' => '/core/boot/services.php',
 			'commands' => '/core/boot/commands.php'
         ]
