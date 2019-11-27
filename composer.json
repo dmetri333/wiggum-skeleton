@@ -1,7 +1,7 @@
 {
 	"name": "wiggum/skeleton",
 	"require" : {
-        "wiggum/framework": "dev-v2-dev",
+        "wiggum/framework": "2.*",
         "wiggum/services": "1.*"
 	},
 	"autoload": {
