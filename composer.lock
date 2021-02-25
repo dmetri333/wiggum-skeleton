@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "65fa8335065e2affe96f07f59aaaea8f",
+    "content-hash": "4be539bdd6e8242c321f9cad1ae5629e",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -79,16 +79,16 @@
         },
         {
             "name": "intervention/image",
-            "version": "2.5.0",
+            "version": "2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Intervention/image.git",
-                "reference": "39eaef720d082ecc54c64bf54541c55f10db546d"
+                "reference": "abbf18d5ab8367f96b3205ca3c89fb2fa598c69e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Intervention/image/zipball/39eaef720d082ecc54c64bf54541c55f10db546d",
-                "reference": "39eaef720d082ecc54c64bf54541c55f10db546d",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/abbf18d5ab8367f96b3205ca3c89fb2fa598c69e",
+                "reference": "abbf18d5ab8367f96b3205ca3c89fb2fa598c69e",
                 "shasum": ""
             },
             "require": {
@@ -145,7 +145,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2019-06-24T14:06:31+00:00"
+            "time": "2019-11-02T09:15:47+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -285,16 +285,16 @@
         },
         {
             "name": "wiggum/framework",
-            "version": "dev-v2-dev",
+            "version": "v2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dmetri333/wiggum-framework.git",
-                "reference": "e4d2149f8d3ebd5b632b2ed0005f083a8f546952"
+                "reference": "a25b1d49b7f66da3aa7bcae6f377699a5e4c0a95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dmetri333/wiggum-framework/zipball/e4d2149f8d3ebd5b632b2ed0005f083a8f546952",
-                "reference": "e4d2149f8d3ebd5b632b2ed0005f083a8f546952",
+                "url": "https://api.github.com/repos/dmetri333/wiggum-framework/zipball/a25b1d49b7f66da3aa7bcae6f377699a5e4c0a95",
+                "reference": "a25b1d49b7f66da3aa7bcae6f377699a5e4c0a95",
                 "shasum": ""
             },
             "require-dev": {
@@ -308,20 +308,20 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-08-10T02:41:16+00:00"
+            "time": "2019-11-11T13:51:21+00:00"
         },
         {
             "name": "wiggum/services",
-            "version": "dev-master",
+            "version": "v1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dmetri333/wiggum-services.git",
-                "reference": "31f898e6cc822ce00769225bfa2b520babc375e3"
+                "reference": "f041b454e3fb0a43e1cce1f5401fe86688e97f40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dmetri333/wiggum-services/zipball/31f898e6cc822ce00769225bfa2b520babc375e3",
-                "reference": "31f898e6cc822ce00769225bfa2b520babc375e3",
+                "url": "https://api.github.com/repos/dmetri333/wiggum-services/zipball/f041b454e3fb0a43e1cce1f5401fe86688e97f40",
+                "reference": "f041b454e3fb0a43e1cce1f5401fe86688e97f40",
                 "shasum": ""
             },
             "require": {
@@ -338,16 +338,13 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-08-10T02:39:05+00:00"
+            "time": "2020-01-06T16:18:56+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "wiggum/framework": 20,
-        "wiggum/services": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

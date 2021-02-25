@@ -14,8 +14,8 @@ return [
 			'routes' => '/app/boot/routes.php'
 		],
 		'console' => [
-			'services' => '/core/boot/services.php',
-			'commands' => '/core/boot/commands.php'
+			'services' => '/app/boot/services.php',
+			'commands' => '/app/boot/commands.php'
         ]
 	]
 

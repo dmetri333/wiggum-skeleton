@@ -3,7 +3,7 @@
 
 require __DIR__.'/vendor/autoload.php';
 
-$kernel = new \console\Kernel(
+$kernel = new \wiggum\console\Kernel(
     new \wiggum\foundation\Application(realpath(__DIR__))
     );
 
