@@ -1,5 +1,4 @@
 <?php
 /************************/
-/* Routes               */
+/* Commands             */
 /************************/
-$app->router->get('/', '\app\components\helloWorld\HelloWorld');
